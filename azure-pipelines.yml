@@ -12,6 +12,8 @@ strategy:
       operatingSystem: 'ubuntu-latest'
     mac:
       operatingSystem: 'macos-latest'
+    Windows:
+      operatingSystem: 'windows-latest'
 pool:
   vmImage: $(operatingSystem)
 
